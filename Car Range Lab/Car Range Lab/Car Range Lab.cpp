@@ -1,5 +1,5 @@
 ﻿// Sam McDowell
-// Car Range Lab.cpp : This program check the range of a car based on mpg
+// Car Range Lab.cpp : This program checks the range of a car based on mpg
 // CSCN 111
 
 #include <iostream>
