@@ -9,13 +9,14 @@
 
 using namespace std;
 
+/* Ask the user for numbers until they are valid */
 void askForNumbers(int& a, int& b) {
 	cout << "Enter the first number:\t\t";
 	cin >> a;
 	cout << "Enter the second number:\t";
 	cin >> b;
 
-	while ((a >= b) || (max(a,b) >= 10000)) {
+	while ((a >= b) || (max(a,b) >= 10001)) {
 		cout << "You failed, bad numbers. Try again\n";
 
 		cout << "Enter the first number:\t\t";
@@ -33,6 +34,7 @@ int main()
 
 	askForNumbers(a, b);
 
+	// Count up from the starting number to the final number and say them
 	for (int i = a; i <= b; i++)
 	{
 
