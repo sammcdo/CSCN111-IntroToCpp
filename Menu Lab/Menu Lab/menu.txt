@@ -1,0 +1,16 @@
+Plain Egg
+2.45
+Bacon and Egg
+4.45
+Hash Browns
+2.99
+All-American
+9.99
+Smothered and Covered
+9.49
+Grits
+4.69
+Coffee
+1.59
+Tea
+1.75
